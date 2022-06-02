@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <title>Discogs</title>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
     <link rel="stylesheet" href="style.css">
-    <scripts src = "scripts.js"></scripts>
+    <script src = "scripts.js"></script>
+
     <!--NAVIGATION BAR-->
    <div class = "navbar"><center>
     <nav>
@@ -17,6 +19,25 @@
     <img class = "icon" src="carticon.png"/> 
     </nav> </center> 
    </div>
+
+   <!--PHONE NAVIGATION BAR-->
+
+   <div id="phonenavbar" onclick="togglemenu()">
+    <div class = "sidebar">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+        <ul>
+            <li>Home</li>
+            <li>New Release</li>
+            <li>Genre+</li>
+            <li>Format</li>
+            <li>About Us</li>
+        </ul>
+   </div>
+
+
 </head>
 
 <body>

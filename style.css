@@ -448,7 +448,26 @@ ul li a{
 /*PRODUCT PAGE*/
 #popup {
     z-index: 1;
+    visibility: hidden;
+    cursor:pointer;
 }
+
+#popup .show {
+    visibility:visible;
+    -webkit-animation: fadeIn 1s;
+    animation:fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
+@keyframes fadeIn {
+    from {opacity:0;}
+    to {opacity:1;}
+}
+
 .popupbaginvisible {
     font-family: avenir;
     font-size: 20px;
@@ -688,10 +707,6 @@ ul li a{
     
 }
 
-#addtocart .active {
-    left: 0;
-}
-
 .cartpage {
     text-decoration: none;
     color: white;
@@ -802,8 +817,6 @@ ul li a{
     TOP: 150%;
     left: 19%;
 }
-
-/*ADD ADD TO CART HERE*/ 
 
 /*CHECK OUT PAGE*/
 

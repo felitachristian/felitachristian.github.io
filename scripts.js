@@ -4,5 +4,6 @@ function togglemenu(){
 
 function carttoggle() {
     var popup = 
-    document.getElementById('popup').classList.toggle('show');
+document.getElementById("popup");
+    popup.classList.toggle("show");
 }

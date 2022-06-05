@@ -447,12 +447,12 @@ ul li a{
 
 /*PRODUCT PAGE*/
 #popup {
-    z-index: 1;
+    z-index: 999;
     visibility: hidden;
     cursor:pointer;
 }
 
-#popup .show {
+#popup.show {
     visibility:visible;
     -webkit-animation: fadeIn 1s;
     animation:fadeIn 1s;
@@ -748,6 +748,7 @@ ul li a{
     top: 98%;
     padding-bottom: 3%;
     width: 50%;
+    text-align: left;
 }
 
 .similar {

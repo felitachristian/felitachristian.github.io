@@ -19,6 +19,30 @@
     </nav> </center> 
    </div>
 <body>
+<!--ADD TO CART POP UP-->
+<center><div id = "popup">
+    <div class = "popupbaginvisible">Bag</div>
+    <div class = "popupbag">Bag</div>
+    <img class = "popupcart" src = "carticon.png">
+    <div class = "popupalbumcover">
+        <img class = "popupimage" src = "favorites/favorite3.JPG">
+        <div class = "popupalbumtitle">Life Begins At The Hop</div>
+        <div class = "popupartistname">XTC</div>
+        <div class = "popupprice">$35.00</div>
+
+    <div class = "popuprows">
+            <a href="contactinfo.html"><div class = "popupproceedtocheckout">Proceed to Check Out</div></a>
+    </div>
+    <div class = "popupnext">
+            <a href = "newrelease.html">
+                <div class ="shopmore">Shop More</div>
+            </a>
+        </div>
+    </div>
+
+</div></center>
+
+<!--PRODUCT DETAIL-->
 <div class = "productdetail">
     <img class="productimage" src ="favorites/favorite3.JPG">
     <div class = productdetailalbumtitle>Life Begins At The Hop</div>
@@ -47,10 +71,11 @@
     </div>
 
     <div class = "buttons">
-        <div class = "addtocart">
-            <a class = "cartpage" href = "addtocart.html">
-            Add to Cart</a></div>
+        <div id = "addtocart" onclick="carttoggle()">
+            Add to Cart</div>
         <div class = "addtowishlist">Add to Wishlist</div>
+
+        <script> src= "showhideelement.js" </script>
     </div>
 
     
@@ -84,6 +109,13 @@
         <div class = "simfavorite"><img src="favorites/favorite3.jpg"/><div class = "simalbumtitle">Life Begins At...</div><div class = "simartistname">XTC</div></div>
         
         <div class = "simfavorite"><img src="favorites/favorite1.jpg"/><div class = "simalbumtitle">Don't Care</div><div class = "simartistname">Klark Kent</div></div>
+    </div>
+
+    <div class = "socialmedia3">
+        Find Us On
+    
+    <img class = "instagram3" src="socialmedia/instagram.svg"/>
+    <img class = "facebook3" src="socialmedia/facebook.svg"/>
     </div>
 
 

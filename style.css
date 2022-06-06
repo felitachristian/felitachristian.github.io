@@ -81,6 +81,7 @@ ul li a{
     border-bottom: 1px gray solid;
     display: block;
     padding-left: 20%;
+    z-index: 999; 
 }
 
 .sidebar {

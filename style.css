@@ -97,9 +97,8 @@ ul li a{
 }
 
 #phonenavbar.active {
-    right: 0;
+    left: 0;
 }
-
 
 @media (max-width: 900px) {
     .ul {
@@ -135,7 +134,6 @@ ul li a{
     
     #iphonenavbar.active {
         display: none
-    }
     }
     
 /*DISCOGS IMAGE, LOGO, AND SLOGAN*/
@@ -449,7 +447,7 @@ ul li a{
 #popup {
     z-index: 999;
     visibility: hidden;
-    cursor:pointer;
+
 }
 
 #popup.show {
@@ -704,6 +702,7 @@ ul li a{
    position: absolute;
    top: 71%;
    box-shadow: 3px 3px 5px gray;
+   cursor: pointer;
     
 }
 
@@ -766,6 +765,7 @@ ul li a{
     overflow: scroll; 
     position: absolute;  
     top: 120%;
+    left: 7.5%;
 }
 
 .simfavorite {

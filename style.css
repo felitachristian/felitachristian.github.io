@@ -195,6 +195,18 @@ ul li a{
     margin-left: 73%;
 }
 
+@media screen and (max-width: 800px){
+    .logo {
+    font-family: Impact;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px; 
+    text-transform: uppercase; 
+    color: white;
+    padding-top: 20%;
+    z-index: 1;
+    }
+}
 
 /*DISCOGS FAVORITE*/
 

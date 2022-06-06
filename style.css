@@ -1682,13 +1682,24 @@ ul li a{
 }
 }
 
-@media (max-width: 900px) {
+    @media (max-width: 900px) {
+    html {
+        min-height: 80vh;
+    }
     nav {
         max-width: 100%; 
         height: 50px;
         background-color: white;
 
     }
+
+    .icon {
+        width: 4%;
+        position: absolute;
+        top: 3.5%;
+        left: 90%;
+    }
+
     .ul {
         display: none;
     }
@@ -1705,8 +1716,10 @@ ul li a{
         text-transform: uppercase;
         font-size: 7vw;
         position: absolute;
-        top: 10%;
+        top: 17%;
+        bottom: 0%;
         left: 40%;
+        right: 0%;
         color: white;
     }
     
@@ -1719,8 +1732,8 @@ ul li a{
         color: white;
         position: absolute;
         z-index: 1;
-        top: 31%;
-        left: 22%;
+        top: 22%;
+        left: 16%;
     }
 
     .discover {
@@ -1734,8 +1747,8 @@ ul li a{
         width: 30%;
         padding-top: 0.8%;
         padding-bottom: 0.8%;
-        position: absolute; 
-        top: 46.5%;
+        position: absolute;
+        top: 34.7%;
         margin-left: 67%;
     }
     
@@ -1763,151 +1776,7 @@ ul li a{
     }
     .favorite img{
         width: 95%;
-        border-radius: 25%;
-        box-shadow: 1px 1px 2px gray;
-        align-items: center;
-    }
-    .albumtitle {
-        font-family: avenir;
-        font-size: 1.5vw;
-        font-weight: 700;
-        gap: 3rem;
-        color: black;
-    }
-    
-    .artistname {
-        font-family: avenir;
-        font-size: 1.5vw;
-        color: gray;
-    }
-    
-    .slidinggenre {
-        padding-left: 3%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-bottom: 3%;
-    }
-
-    .genretitle {
-        font-family: avenir;
-        font-size: 3vw; 
-        font-weight: 580;
-        padding-left: 3%;
-        padding-bottom: 1%;
-        position: absolute;
-        top: 69%; 
-    }
-
-    .genre {
-        margin-right: 2rem;
-        width: 100%;
-        transform: translate(0%,40%);
-        top: 70%;
-    
-    }
-    
-    .genre img {
-        width: 100%;
-        border-radius: 18px;
-        box-shadow: 1px 1px 2px gray;
-    }
-    
-    .genrename {
-        font-family: avenir;
-        text-decoration: none;
-        font-size: 1.5vw;
-        color: white;
-        text-align: center;
-        border: 1px solid white;
-        border-radius: 20px;
-        align-items: center;
-        width: 60%;
-        align-items: center;
-        transform: translate(34%, -290%)
-    }
-    }
-
-
-
-
-
-    @media (max-width: 900px) {
-    .ul {
-        display: none;
-    }
-    
-    ul li {
-        display: none;
-    }
-    
-    .ul li a {
-        display: none;
-    }
-    .logo {
-        font-family: impact;
-        text-transform: uppercase;
-        font-size: 7vw;
-        position: absolute;
-        top: 25%;
-        left: 40%;
-        color: white;
-    }
-    
-    .divslogan {
-        font-family: avenir;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 2vw;
-        color: white;
-        position: absolute;
-        z-index: 1;
-        top: 31%;
-        left: 22%;
-    }
-
-    .discover {
-        font-family: avenir;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1.5vw;
-        color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        width: 30%;
-        padding-top: 0.8%;
-        padding-bottom: 0.8%;
-        position: relative;
-        top: 35%;
-        margin-left: 67%;
-    }
-    
-    .discogsfavorite {
-        font-family: avenir;
-        font-size: 3vw; 
-        font-weight: 580;
-        padding-top: 2%;
-        padding-left: 3%;
-        padding-bottom: 1%;  
-    }
-
-    .slidingfavorite {
-        padding-left: 3%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow: scroll; 
-    }
-
-    .favorite {
-        margin-right: 2rem;
-        width: 16rem;
-        overflow: hidden;
-    }
-    .favorite img{
-        width: 95%;
-        border-radius: 10px;
+        border-radius: 20%;
         box-shadow: 1px 1px 2px gray;
         align-items: center;
     }
@@ -1940,20 +1809,20 @@ ul li a{
         padding-left: 3%;
         padding-bottom: 1%;
         position: absolute; 
-        top: 66%;
+        top: 53%;
     }
 
     .genre {
         margin-right: 2rem;
         width: 100%;
-        transform: translate(0%,40%);
+        transform: translate(0%,43%);
         top: 70%;
     
     }
     
     .genre img {
         width: 100%;
-        border-radius: 18px;
+        border-radius: 10%;
         box-shadow: 1px 1px 2px gray;
     }
     
@@ -1978,21 +1847,604 @@ ul li a{
         margin-left: 3%;
         margin-bottom: 3%;
         position: absolute;
-        top: 83%;
+        top: 65%;
         width: 80%;
+        height: 10%;
     }
     
     .instagram {
         width: 2%;
         position: absolute;
-        top: 3%;
-        left: 50%;
+        top: 65%;
+        left: 17%;
     }
     
     .facebook {
         width: 2%;
         position: absolute;
-        top: 83%;
+        top: 65%;
+        left: 14%;
+    }
+    
+    .mainimage {
+        width: 100%;
+    }
+
+    .title {
+        font-family: avenir; 
+        font-size: 4.5vw;
+        font-weight: 580;
+        width: 100%;
+        position: absolute;
+        top: 18%;
+        left: 0%;
+        color: white;
+    }
+
+    .combinedgrid {
+        padding-left: 9%;
+        display: flex; 
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        padding-top: 2.5%; 
+    }
+    
+    .grid {
+        margin-right: 2rem;
+        width: 10rem;
+        height: 6rem;
+        overflow: hidden;
+    }
+    .grid img {
+        width: 60%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 5px gray;
+        align-items: center;
+    }
+    
+    .gridalbumtitle {
+        font-family: avenir;
+        font-weight: 700;
+        font-size: 1vh;
+        gap: 3rem;
+    }
+    
+    .gridartistname {
+        font-family: avenir;
+        font-size: 1vh;
+        color: gray;
+    }
+    
+    .productdetail {
+        display: inline-block;
+        text-transform: none;
+        color: black;
+    }
+
+    .filter {
+        width: 100%;
+    }
+    
+    .filtericon {
+        width: 4%;
+        position: absolute; 
+        top: 34%;
+        left: 90%;
+    }
+    .socialmedia2 {
+        font-family: avenir; 
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        margin-left: 3%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+    
+    .instagram2 {
+        width: 2%;
+        position: absolute;
+        top: 88.3%; 
         left: 17%;
     }
+    
+    .facebook2 {
+        width: 2%;
+        position: absolute;
+        top: 88.3%; 
+        left: 14%;
+    }
+
+    .productdetail {
+        max-width: 100%;
+        margin-left: 10%;
+        margin-top: 4%;
+        z-index: -1;
+    }
+    
+    .productimage {
+        width: 40%;
+        border-radius: 20px;
+    }
+    
+    .productdetailalbumtitle {
+        font-family: avenir; 
+        font-weight: 580;
+        font-size: 3vw;
+        position: absolute;
+        top: 11%;
+        left: 53%;
+    }
+    
+    .productdetailartists {
+        font-family: avenir; 
+        color: gray; 
+        font-size: 2.5vw; 
+        position: absolute; 
+        top: 13.5%;
+        left: 53%;
+    }
+    
+    .rating {
+        position: absolute; 
+        max-width: 100%;
+        top: 15.5%; 
+        left: 53%;
+    
+    }
+    
+    .starfilled {
+        width: 5%;
+        margin-right: 0.09%;
+    }
+    
+    .starunfilled {
+        width: 5%; 
+        margin-right: 0.09%;
+    }
+    
+    .threesymbols {
+        max-width: 100%;
+    }
+    
+    .truck {
+        position: absolute;
+        width: 4%;
+        top: 19%; 
+        left: 53%;
+    }
+    
+    .search {
+        position: absolute; 
+        width: 4%;
+        top: 22.5%; 
+        left: 53%;
+    }
+    
+    .time {
+        position: absolute; 
+        width: 4%;
+        top: 26.2%;
+        left: 53%
+    }
+    
+    .instruction1 {
+        font-family: avenir; 
+        position: absolute; 
+        font-size: 2vw;
+        left: 59%;
+        top: 19.7%;
+    }
+    
+    .instruction2 {
+        font-family: avenir; 
+        font-size: 2vw;
+        position: absolute; 
+        left: 59%;
+        top: 23%;
+    }
+    
+    .instruction3 {
+        font-family: avenir; 
+        font-size: 2vw;
+        position: absolute; 
+        left: 59%;
+        top: 26.5%;
+    }
+    
+    .price {
+        font-family: avenir;
+        font-size: 3.5vw;
+        font-weight: 580;
+        color: gray;
+        font-size: 2vw;
+        position: absolute; 
+        top: 30%;
+        left: 53%;
+    }
+    
+    .buttons {
+        width: 110%;
+    }
+    
+    #addtocart {
+       font-family: avenir;
+       border: none;
+       background-color: black;
+       text-decoration: none;
+       color: white;
+       padding: 10px 45px;
+       text-align: center; 
+       text-decoration: none; 
+       display: inline-block;
+       font-size: 3vw; 
+       border-radius: 30px;
+       position: absolute;
+       top: 33.5%;
+       box-shadow: 3px 3px 5px gray;
+       cursor: pointer;
+        
+    }
+    
+    .addtowishlist {
+        font-family: avenir;
+       border: 5px;
+       border-color: black;
+       color: black;
+       padding: 9px 36px;
+       text-align: center; 
+       text-decoration: none; 
+       display: inline-block;
+       font-size: 3vw; 
+       border-radius: 30px;
+       position: absolute;
+       top: 40%;
+       box-shadow: 3px 3px 5px gray;
+    
+    }
+    
+    .writing {
+        width: 100%;
+    }
+    
+    .productdescription {
+        font-family: avenir;
+        font-weight: 580;
+        font-size: 3vw;
+        position: absolute;
+        top: 48%;
+    }
+    
+    .paragraph {
+        font-family: avenir; 
+        position: absolute; 
+        font-size: 2vw;
+        top: 51%;
+        padding-bottom: 3%;
+        width: 70%;
+        text-align: left;
+    }
+
+    .similar {
+        font-family: avenir;
+        font-size: 3vw;
+        font-weight: 580;
+        position: absolute;
+        top: 62%;
+    }
+    
+    .slidingsimilar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: scroll; 
+        position: absolute;  
+        top: 66%;
+        left: 7.5%;
+    }
+    
+    .simfavorite {
+        width: 50%;
+        overflow: hidden;
+    }
+    .simfavorite img{
+        width: 20%;
+        border-radius: 20%;
+        box-shadow: 3px 3px 5px gray;
+        align-items: center;
+    }
+    
+    .simalbumtitle {
+        font-family: avenir;
+        width: 30%;
+        font-size: 1.5vw;
+        margin-left: 0%;
+        padding: 0%;
+        font-weight: 700;
+    }
+    
+    .simartistname {
+        font-family: avenir;
+        color: gray;
+        font-size: 1.5vw;
+        width: 50%;
+        margin-left: 0%;
+        padding: 0%;
+    }
+
+    .bigimage {
+        width: 100%;
+        position: absolute;
+    }
+    
+    .checkoutimage {
+        width: 100%;
+    }
+    
+    .checkout {
+        font-family: avenir;
+        font-size: 4.5vw;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+        font-weight: 580;
+        position: absolute;
+        top: 40%;
+        left: 38%;
+    
+    }
+    
+    .contactinfo {
+        font-family: avenir; 
+        font-size: 20px; 
+        text-transform: uppercase;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 500;
+        text-align: center;
+        position: absolute; 
+        top: 47%;
+        left: 40%;
+    }
+    
+    
+    .progressbar {
+        width: 100%;
+        height: 6rem;
+        position: absolute;
+        top: 43%;
+    }
+    
+    .graybar {
+        position: absolute; 
+        color: #E5E5E5;
+        background-color:#E5E5E5;
+        width: 69%;
+        height: 11%;
+        border-radius: 12px;
+        left: 15%;
+    }
+    
+    .leftcirclepayment {
+        width: 7%;
+        position: absolute;
+        top: -7%;
+        left: 14.8%;
+        z-index: 1;
+    }
+    
+    .middlecirclepayment {
+        width: 7%;
+        position: absolute;
+        top: -5%;
+        left: 48.5%; 
+        z-index: 1;
+    }
+    
+    .rightcirclepayment {
+        width: 7%;
+        position: absolute;
+        top: -7%;
+        left: 81.5%;
+        z-index: 1;
+    }
+    
+    .progressbar ul li {
+        font-family: avenir; 
+        color: black;
+        list-style-type: none;
+        float: left;
+        position: relative;
+        top: 200%;
+        width: 33.33%;
+        padding: 0;
+    }
+    
+    .bar {
+        position: relative;
+        top: 8%;
+    }
+    
+    .rows {
+        width: 100%;
+    }
+    
+    /*CONTACT INFORMATION PAGE*/
+    
+    .firstnamee {
+        font-family: avenir;
+        position: absolute; 
+        color: gray;
+        top: 110%;
+        left: 12%;
+        width : 33%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .lastnamee {
+        font-family: avenir;
+        color: gray;
+        position: absolute; 
+        top: 110%;
+        left: 49.5%;
+        width : 35%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .mobilenumberr {
+        font-family: avenir;
+        position: absolute; 
+        color: gray;
+        top: 120%;
+        left: 12%;
+        width : 35%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .emailaddresss {
+        font-family: avenir;
+        color: gray;
+        position: absolute; 
+        top: 120%;
+        left: 51.5%;
+        width : 33%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .addresss {
+        font-family: avenir;
+        color: gray;
+        position: absolute; 
+        top: 130%;
+        left: 12%;
+        width : 72.5%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .citys {
+        font-family: avenir;
+        position: absolute; 
+        color: gray;
+        top: 140%;
+        left: 12%;
+        width : 33%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .countrys {
+        font-family: avenir;
+        color: gray;
+        position: absolute; 
+        top: 140%;
+        left: 49.5%;
+        width : 35%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .suburbs {
+        font-family: avenir;
+        position: absolute; 
+        color: gray;
+        top: 150%;
+        left: 12%;
+        width : 20%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .states {
+        font-family: avenir;
+        position: absolute; 
+        color: gray;
+        top: 150%;
+        left: 37%;
+        width : 24%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .postcodes {
+        font-family: avenir;
+        position: absolute; 
+        color: gray;
+        top: 150%;
+        left: 66%;
+        width : 18.5%;
+        font-size: 17px;
+        border-radius: 20px;
+        padding-left: 2%;
+        border-color: transparent;
+        box-shadow: 3px 3px 5px gray;
+        height: 6%;
+    }
+    
+    .proceedtoshipping {
+        font-family: avenir;
+        text-transform: uppercase;
+        text-align: center;
+        display: inline-block;
+        color: white;
+        background: black;
+        border-radius: 40px;
+        width: 20.5%;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        position: absolute;
+        top: 161%;
+        left: 37%;
+    }
+    
+    .goback {
+        font-family: avenir;
+        text-align: center; 
+        font-weight: 400px;
+        color: gray;
+        position: absolute;
+        top: 172%;
+        left: 43%;
+        padding-bottom: 3%;
+    }
+    
     }

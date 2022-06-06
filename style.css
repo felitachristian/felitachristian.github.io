@@ -135,16 +135,6 @@ ul li a{
         left: 22%;
     }
 
-    .seethroughbanner {
-        width: 100%;
-        height: 4rem; 
-        background-color: #4C4C4C;
-        opacity: 80%;
-        z-index: 2;
-        position: absolute;
-        top: 42.3%;
-    }
-
     .discover {
         font-family: avenir;
         text-transform: uppercase;
@@ -1898,16 +1888,6 @@ ul li a{
         z-index: 1;
         top: 31%;
         left: 22%;
-    }
-
-    .seethroughbanner {
-        width: 100%;
-        height: 4rem; 
-        background-color: #4C4C4C;
-        opacity: 80%;
-        z-index: 2;
-        position: absolute;
-        top: 42.3%;
     }
 
     .discover {

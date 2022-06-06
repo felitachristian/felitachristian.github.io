@@ -101,171 +101,6 @@ ul li a{
 #phonenavbar.active {
     left: 0;
 }
-
-@media (max-width: 900px) {
-    .ul {
-        display: none;
-    }
-    
-    ul li {
-        display: none;
-    }
-    
-    .ul li a {
-        display: none;
-    }
-    .logo {
-        font-family: impact;
-        text-transform: uppercase;
-        font-size: 7vw;
-        position: absolute;
-        top: 25%;
-        left: 40%;
-        color: white;
-    }
-    
-    .divslogan {
-        font-family: avenir;
-        text-align: center;
-        text-transform: uppercase;
-        font-weight: 500;
-        font-size: 2vw;
-        color: white;
-        position: absolute;
-        z-index: 1;
-        top: 31%;
-        left: 22%;
-    }
-
-    .discover {
-        font-family: avenir;
-        text-transform: uppercase;
-        text-align: center;
-        font-size: 1.5vw;
-        color: white;
-        border: 1px solid white;
-        border-radius: 25px;
-        width: 30%;
-        padding-top: 0.8%;
-        padding-bottom: 0.8%;
-        position: relative;
-        top: 35%;
-        margin-left: 67%;
-    }
-    
-    .discogsfavorite {
-        font-family: avenir;
-        font-size: 3vw; 
-        font-weight: 580;
-        padding-top: 2%;
-        padding-left: 3%;
-        padding-bottom: 1%;  
-    }
-
-    .slidingfavorite {
-        padding-left: 3%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        overflow: scroll; 
-    }
-
-    .favorite {
-        margin-right: 2rem;
-        width: 16rem;
-        overflow: hidden;
-    }
-    .favorite img{
-        width: 95%;
-        border-radius: 10px;
-        box-shadow: 1px 1px 2px gray;
-        align-items: center;
-    }
-    .albumtitle {
-        font-family: avenir;
-        font-size: 1.5vw;
-        font-weight: 700;
-        gap: 3rem;
-        color: black;
-    }
-    
-    .artistname {
-        font-family: avenir;
-        font-size: 1.5vw;
-        color: gray;
-    }
-    
-    .slidinggenre {
-        padding-left: 3%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        padding-bottom: 3%;
-    }
-
-    .genretitle {
-        font-family: avenir;
-        font-size: 3vw; 
-        font-weight: 580;
-        padding-left: 3%;
-        padding-bottom: 1%;
-        position: absolute; 
-        top: 66%;
-    }
-
-    .genre {
-        margin-right: 2rem;
-        width: 100%;
-        transform: translate(0%,40%);
-        top: 70%;
-    
-    }
-    
-    .genre img {
-        width: 100%;
-        border-radius: 18px;
-        box-shadow: 1px 1px 2px gray;
-    }
-    
-    .genrename {
-        font-family: avenir;
-        text-decoration: none;
-        font-size: 1.5vw;
-        color: white;
-        text-align: center;
-        border: 1px solid white;
-        border-radius: 20px;
-        align-items: center;
-        width: 60%;
-        align-items: center;
-        transform: translate(34%, -290%)
-    }
-
-    .socialmedia {
-        font-family: avenir; 
-        font-size: 1.5vw;
-        text-transform: uppercase;
-        margin-left: 3%;
-        margin-bottom: 3%;
-        position: absolute;
-        top: 83%;
-        width: 80%;
-    }
-    
-    .instagram {
-        width: 2%;
-        position: absolute;
-        top: 3%;
-        left: 50%;
-    }
-    
-    .facebook {
-        width: 2%;
-        position: absolute;
-        top: 83%;
-        left: 17%;
-    }
-    }
     
 @media (min-width: 900px) {
     #phonenavbar {
@@ -1984,5 +1819,174 @@ ul li a{
         width: 60%;
         align-items: center;
         transform: translate(34%, -290%)
+    }
+    }
+
+
+
+
+
+    @media (max-width: 900px) {
+    .ul {
+        display: none;
+    }
+    
+    ul li {
+        display: none;
+    }
+    
+    .ul li a {
+        display: none;
+    }
+    .logo {
+        font-family: impact;
+        text-transform: uppercase;
+        font-size: 7vw;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        color: white;
+    }
+    
+    .divslogan {
+        font-family: avenir;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 2vw;
+        color: white;
+        position: absolute;
+        z-index: 1;
+        top: 31%;
+        left: 22%;
+    }
+
+    .discover {
+        font-family: avenir;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.5vw;
+        color: white;
+        border: 1px solid white;
+        border-radius: 25px;
+        width: 30%;
+        padding-top: 0.8%;
+        padding-bottom: 0.8%;
+        position: relative;
+        top: 35%;
+        margin-left: 67%;
+    }
+    
+    .discogsfavorite {
+        font-family: avenir;
+        font-size: 3vw; 
+        font-weight: 580;
+        padding-top: 2%;
+        padding-left: 3%;
+        padding-bottom: 1%;  
+    }
+
+    .slidingfavorite {
+        padding-left: 3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: scroll; 
+    }
+
+    .favorite {
+        margin-right: 2rem;
+        width: 16rem;
+        overflow: hidden;
+    }
+    .favorite img{
+        width: 95%;
+        border-radius: 10px;
+        box-shadow: 1px 1px 2px gray;
+        align-items: center;
+    }
+    .albumtitle {
+        font-family: avenir;
+        font-size: 1.5vw;
+        font-weight: 700;
+        gap: 3rem;
+        color: black;
+    }
+    
+    .artistname {
+        font-family: avenir;
+        font-size: 1.5vw;
+        color: gray;
+    }
+    
+    .slidinggenre {
+        padding-left: 3%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 3%;
+    }
+
+    .genretitle {
+        font-family: avenir;
+        font-size: 3vw; 
+        font-weight: 580;
+        padding-left: 3%;
+        padding-bottom: 1%;
+        position: absolute; 
+        top: 66%;
+    }
+
+    .genre {
+        margin-right: 2rem;
+        width: 100%;
+        transform: translate(0%,40%);
+        top: 70%;
+    
+    }
+    
+    .genre img {
+        width: 100%;
+        border-radius: 18px;
+        box-shadow: 1px 1px 2px gray;
+    }
+    
+    .genrename {
+        font-family: avenir;
+        text-decoration: none;
+        font-size: 1.5vw;
+        color: white;
+        text-align: center;
+        border: 1px solid white;
+        border-radius: 20px;
+        align-items: center;
+        width: 60%;
+        align-items: center;
+        transform: translate(34%, -290%)
+    }
+
+    .socialmedia {
+        font-family: avenir; 
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        margin-left: 3%;
+        margin-bottom: 3%;
+        position: absolute;
+        top: 83%;
+        width: 80%;
+    }
+    
+    .instagram {
+        width: 2%;
+        position: absolute;
+        top: 3%;
+        left: 50%;
+    }
+    
+    .facebook {
+        width: 2%;
+        position: absolute;
+        top: 83%;
+        left: 17%;
     }
     }

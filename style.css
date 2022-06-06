@@ -154,7 +154,7 @@ ul li a{
     z-index: 1;
     position: absolute;
     top: 10%;
-    left: 42%;
+    left: 38%;
 }
 
 .divslogan {
@@ -166,8 +166,8 @@ ul li a{
     color: white;
     position: absolute;
     z-index: 1;
-    top: 56%;
-    left: 29%;
+    top: 60%;
+    left: 28%;
 }
 
 .seethroughbanner {
@@ -193,6 +193,13 @@ ul li a{
     position: relative;
     top: 35%;
     margin-left: 73%;
+}
+
+@media screen and (min-width: 900px) {
+    .logo {
+        display: visible;
+        font-size: 100px;
+    }    
 }
 
 /*DISCOGS FAVORITE*/

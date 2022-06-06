@@ -195,12 +195,6 @@ ul li a{
     margin-left: 73%;
 }
 
-@media screen and (min-width: 900px) {
-    .logo {
-        display: visible;
-        font-size: 100px;
-    }    
-}
 
 /*DISCOGS FAVORITE*/
 

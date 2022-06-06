@@ -68,7 +68,7 @@ ul li a{
     position: absolute;
     width: 50%;
     height: 100%;
-    left: -20%;
+    left: -50%;
     background-color: white;
     z-index: 999;
 }

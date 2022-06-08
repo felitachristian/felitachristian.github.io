@@ -2003,7 +2003,7 @@ ul li a{
         font-weight: 580;
         font-size: 3.5vw;
         position: absolute;
-        top: 8%;
+        top: 10%;
         left: 49%;
     }
     
@@ -2012,14 +2012,14 @@ ul li a{
         color: gray; 
         font-size: 3.5vw; 
         position: absolute; 
-        top: 11%;
+        top: 13%;
         left: 49%;
     }
     
     .rating {
         position: absolute; 
         max-width: 100%;
-        top: 14%; 
+        top: 16%; 
         left: 49%;
     
     }
@@ -2041,21 +2041,21 @@ ul li a{
     .truck {
         position: absolute;
         width: 4%;
-        top: 17%; 
+        top: 19%; 
         left: 49%;
     }
     
     .search {
         position: absolute; 
         width: 4%;
-        top: 21%; 
+        top: 23%; 
         left: 49%;
     }
     
     .time {
         position: absolute; 
         width: 4%;
-        top: 25%;
+        top: 27%;
         left: 49%
     }
     
@@ -2064,7 +2064,7 @@ ul li a{
         position: absolute; 
         font-size: 2vw;
         left: 56%;
-        top: 17%;
+        top: 19%;
     }
     
     .instruction2 {
@@ -2072,7 +2072,7 @@ ul li a{
         font-size: 2vw;
         position: absolute; 
         left: 56%;
-        top: 21%;
+        top: 23%;
     }
     
     .instruction3 {
@@ -2080,7 +2080,7 @@ ul li a{
         font-size: 2vw;
         position: absolute; 
         left: 56%;
-        top: 25%;
+        top: 27%;
     }
     
     .price {
@@ -2090,7 +2090,7 @@ ul li a{
         color: gray;
         font-size: 2vw;
         position: absolute; 
-        top: 28%;
+        top: 30%;
         left: 49%;
     }
     
@@ -2111,9 +2111,9 @@ ul li a{
        font-size: 3vw; 
        border-radius: 30px;
        position: absolute;
-       top: 31.5%;
+       top: 33.5%;
        left: 6.5%;
-       width: 24.5%;
+       width: 16%;
        box-shadow: 3px 3px 5px gray;
        cursor: pointer;
         
@@ -2267,9 +2267,9 @@ ul li a{
        font-size: 3vw; 
        border-radius: 30px;
        position: absolute;
-       top: 37.5%;
+       top: 39.5%;
        left: 6.5%;
-       width: 27.5%;
+       width: 20%;
        box-shadow: 3px 3px 5px gray;
     
     }
@@ -2283,7 +2283,7 @@ ul li a{
         font-weight: 580;
         font-size: 3.2vw;
         position: absolute;
-        top: 44%;
+        top: 46%;
         left: 6.5%;
     }
     
@@ -2291,7 +2291,7 @@ ul li a{
         font-family: avenir; 
         position: absolute; 
         font-size: 2vw;
-        top: 47%;
+        top: 49%;
         left: 6.5%;
         padding-bottom: 3%;
         width: 70%;
@@ -2303,7 +2303,7 @@ ul li a{
         font-size: 3.5vw;
         font-weight: 580;
         position: absolute;
-        top: 58%;
+        top: 60%;
         left: 6.5%;
     }
     
@@ -2313,7 +2313,7 @@ ul li a{
         flex-wrap: nowrap;
         overflow: scroll; 
         position: absolute;  
-        top: 62%;
+        top: 64%;
         left: 5.8%;
     }
     .simfavorite {

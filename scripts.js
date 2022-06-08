@@ -3,6 +3,7 @@ function togglemenu(){
  }
 
 function carttoggle() {
+    alert ('test')
     var popup = 
 document.getElementById("popup");
     popup.classList.toggle("show");

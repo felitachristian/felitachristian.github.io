@@ -56,7 +56,7 @@ ul li a{
     height: 100%;
 }
 
-.icon {
+#icon {
     width: 1.8%;
     position: absolute;
     top: 3.5%;
@@ -412,12 +412,12 @@ ul li a{
 
 .instagram2 {
     width: 2%;
-    transform: translate(28%, 26%);
+    transform: translate(600%, -240%);
 }
 
 .facebook2 {
     width: 2%;
-    transform: translate(36%, 26%);
+    transform: translate(360%, -240%);
 }
 
 /*PRODUCT PAGE*/
@@ -742,7 +742,7 @@ ul li a{
     overflow: scroll; 
     position: absolute;  
     top: 120%;
-    left: 7.5%;
+    left: 9.5%;
 }
 
 .simfavorite {
@@ -779,21 +779,24 @@ ul li a{
     font-size: 15px;
     text-transform: uppercase;
     margin-bottom: 3%;
+    position: absolute;
+    top: 155%;
+    left: 9%; 
 }
 
 .instagram3 {
     width: 2%;
     position: absolute; 
-    top: 150%;
-    left: 16%;
+    top: 154.5%;
+    left: 18.5%;
 
 }
 
 .facebook3 {
     width: 2%;
     position: absolute;
-    TOP: 150%;
-    left: 19%;
+    TOP: 154.5%;
+    left: 16%;
 }
 
 /*CHECK OUT PAGE*/
@@ -1659,6 +1662,59 @@ ul li a{
     html {
         min-height: 80vh;
     }
+
+    #icon.show {
+        visibility:visible;
+        -webkit-animation: fadeIn 1s;
+        animation:fadeIn 1s;
+    }
+    #phonenavbar {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        left: -60%;
+        background-color: white;
+        z-index: 999;
+    }
+    
+    #phonenavbar li {
+        color: black;
+        font-family: avenir;
+        text-transform: uppercase;
+        padding: 2px;
+        border-bottom: 1px gray solid;
+        display: block;
+        padding-left: 20%;
+        z-index: 999; 
+    }
+
+    .ul li a {
+        max-width: 100%;
+        text-decoration: none;
+        font-size: 14px; 
+        font-family: avenir;
+        text-transform: uppercase;
+        color: black;    
+    }
+    
+    .sidebar {
+        position: absolute;
+        left: 127%;
+        top: -5.5%;
+    }
+    
+    .sidebar span {
+        display: block; 
+        background-color: black;
+        width: 20px;
+        height: 2px;
+        margin: 4px;
+    }
+    
+    #phonenavbar.active {
+        left: 0;
+    }
+    
     nav {
         max-width: 100%; 
         height: 50px;
@@ -1666,7 +1722,7 @@ ul li a{
 
     }
 
-    .icon {
+    #icon {
         width: 4%;
         position: absolute;
         top: 3.5%;
@@ -1684,6 +1740,7 @@ ul li a{
     .ul li a {
         display: none;
     }
+
     .logo {
         font-family: impact;
         text-transform: uppercase;
@@ -1937,41 +1994,43 @@ ul li a{
     .productimage {
         width: 40%;
         border-radius: 20px;
+        position: absolute;
+        left: 6%;
     }
     
     .productdetailalbumtitle {
         font-family: avenir; 
         font-weight: 580;
-        font-size: 3vw;
+        font-size: 3.5vw;
         position: absolute;
         top: 11%;
-        left: 53%;
+        left: 49%;
     }
     
     .productdetailartists {
         font-family: avenir; 
         color: gray; 
-        font-size: 2.5vw; 
+        font-size: 3.5vw; 
         position: absolute; 
         top: 13.5%;
-        left: 53%;
+        left: 49%;
     }
     
     .rating {
         position: absolute; 
         max-width: 100%;
-        top: 15.5%; 
-        left: 53%;
+        top: 16%; 
+        left: 49%;
     
     }
     
     .starfilled {
-        width: 5%;
+        width: 6%;
         margin-right: 0.09%;
     }
     
     .starunfilled {
-        width: 5%; 
+        width: 6%; 
         margin-right: 0.09%;
     }
     
@@ -1983,28 +2042,28 @@ ul li a{
         position: absolute;
         width: 4%;
         top: 19%; 
-        left: 53%;
+        left: 49%;
     }
     
     .search {
         position: absolute; 
         width: 4%;
         top: 22.5%; 
-        left: 53%;
+        left: 49%;
     }
     
     .time {
         position: absolute; 
         width: 4%;
         top: 26.2%;
-        left: 53%
+        left: 49%
     }
     
     .instruction1 {
         font-family: avenir; 
         position: absolute; 
         font-size: 2vw;
-        left: 59%;
+        left: 56%;
         top: 19.7%;
     }
     
@@ -2012,7 +2071,7 @@ ul li a{
         font-family: avenir; 
         font-size: 2vw;
         position: absolute; 
-        left: 59%;
+        left: 56%;
         top: 23%;
     }
     
@@ -2020,7 +2079,7 @@ ul li a{
         font-family: avenir; 
         font-size: 2vw;
         position: absolute; 
-        left: 59%;
+        left: 56%;
         top: 26.5%;
     }
     
@@ -2032,7 +2091,7 @@ ul li a{
         font-size: 2vw;
         position: absolute; 
         top: 30%;
-        left: 53%;
+        left: 49%;
     }
     
     .buttons {
@@ -2053,9 +2112,146 @@ ul li a{
        border-radius: 30px;
        position: absolute;
        top: 33.5%;
+       left: 6.5%;
        box-shadow: 3px 3px 5px gray;
        cursor: pointer;
         
+    }
+
+    #popup {
+        z-index: 999;
+        visibility: hidden;
+    
+    }
+    
+    #popup.show {
+        visibility:visible;
+        -webkit-animation: fadeIn 1s;
+        animation:fadeIn 1s;
+    }
+    
+    @-webkit-keyframes fadeIn {
+        from {opacity:0;}
+        to {opacity:1;}
+    }
+    
+    @keyframes fadeIn {
+        from {opacity:0;}
+        to {opacity:1;}
+    }
+    
+    .popupbaginvisible {
+        font-family: avenir;
+        font-size: 20px;
+        font-weight: 570;
+        color: white;
+        background-color: white;
+        box-shadow: 3px 3px 5px gray;
+        border-radius: 20px;
+        width: 80%;
+        height: 250px;
+        z-index: 1;
+        position: absolute;
+        top: 12%;
+        left: 10%;
+    }
+    
+    .popupbag { 
+        font-family: avenir;
+        font-size: 4vw;
+        font-weight: 570;
+        z-index: 2;
+        position: absolute;
+        top: 15.5%;
+        left: 17%;
+    }
+    
+    .popupcart {
+        width: 3.5%;
+        z-index: 2;
+        position: absolute;
+        top: 16%;
+        left: 77%;
+    }
+    
+    .popupimage {
+        width: 12%;
+        border-radius: 20%;
+        z-index: 2;
+        position: absolute;
+        top: 20%;
+        left: 17%;
+    }
+    
+    .popupalbumtitle { 
+        font-family: avenir;
+        font-weight: 570;
+        font-size: 2.5vw;
+        z-index: 2;
+        position: absolute;
+        top: 20.5%;
+        left: 33%;
+    }
+    
+    .popupartistname {
+        font-family: avenir;
+        color: gray;
+        font-size: 2.5vw;
+        z-index: 2;
+        position: absolute;
+        top: 22.5%;
+        left: 33%;
+    }
+    
+    .popupprice {
+        font-family: avenir;
+        font-weight: 570;
+        color: gray;
+        font-size: 2.5vw;
+        z-index: 2;
+        position: absolute;
+        top: 24.5%;
+        left: 33%;
+    
+    }
+    
+    .popuprows {
+        font-family: avenir;
+        text-transform: uppercase;
+        color: white;
+        font-size: 2.5vw;
+        text-align: center;
+        display: inline-block;
+        text-decoration: none; 
+        background-color: black;
+        border-radius: 40px;
+        width: 45%;
+        padding-top: 1.8%;
+        padding-bottom: 1.8%;
+        z-index: 2;
+        position: absolute;
+        top: 39%;
+        left: 29%;
+    }
+    
+    .popupproceedtocheckout {
+        color: white;
+    }
+    
+    .popupnext {
+        font-family: avenir;
+        font-size: 2.5vw;
+        text-align: center; 
+        color: gray;
+        z-index: 2;
+        position: absolute;
+        top: 44%;
+        left: 45%;
+    }
+    
+    .shopmore {
+        z-index: 2;
+        color: gray;
     }
     
     .addtowishlist {
@@ -2071,6 +2267,7 @@ ul li a{
        border-radius: 30px;
        position: absolute;
        top: 40%;
+       left: 6.5%;
        box-shadow: 3px 3px 5px gray;
     
     }
@@ -2082,9 +2279,10 @@ ul li a{
     .productdescription {
         font-family: avenir;
         font-weight: 580;
-        font-size: 3vw;
+        font-size: 3.2vw;
         position: absolute;
         top: 48%;
+        left: 6.5%;
     }
     
     .paragraph {
@@ -2092,6 +2290,7 @@ ul li a{
         position: absolute; 
         font-size: 2vw;
         top: 51%;
+        left: 6.5%;
         padding-bottom: 3%;
         width: 70%;
         text-align: left;
@@ -2099,10 +2298,11 @@ ul li a{
 
     .similar {
         font-family: avenir;
-        font-size: 3vw;
+        font-size: 3.5vw;
         font-weight: 580;
         position: absolute;
-        top: 62%;
+        top: 63%;
+        left: 6.5%;
     }
     
     .slidingsimilar {
@@ -2112,36 +2312,32 @@ ul li a{
         overflow: scroll; 
         position: absolute;  
         top: 66%;
-        left: 7.5%;
+        left: 5.8%;
     }
-    
     .simfavorite {
-        width: 50%;
+        margin-right: 0.5rem;
+        width: 100%;
         overflow: hidden;
     }
+
     .simfavorite img{
-        width: 20%;
+        width: 85%;
         border-radius: 20%;
-        box-shadow: 3px 3px 5px gray;
+        box-shadow: 1px 1px 2px gray;
         align-items: center;
     }
     
     .simalbumtitle {
         font-family: avenir;
-        width: 30%;
         font-size: 1.5vw;
-        margin-left: 0%;
-        padding: 0%;
         font-weight: 700;
+        gap: 3rem;
+        color: black;
     }
     
     .simartistname {
         font-family: avenir;
-        color: gray;
         font-size: 1.5vw;
-        width: 50%;
-        margin-left: 0%;
-        padding: 0%;
     }
 
     .bigimage {
@@ -2240,6 +2436,31 @@ ul li a{
     
     .rows {
         width: 100%;
+    }
+
+    .socialmedia3 {
+        font-family: avenir; 
+        font-size: 1.5vw;
+        text-transform: uppercase;
+        margin-bottom: 3%;
+        position: absolute;
+        top: 80%;
+        left: 6%; 
+    }
+    
+    .instagram3 {
+        width: 2%;
+        position: absolute; 
+        top: 80%;
+        left: 18.5%;
+    
+    }
+    
+    .facebook3 {
+        width: 2%;
+        position: absolute;
+        TOP: 80%;
+        left: 16%;
     }
     
     /*CONTACT INFORMATION PAGE*/
@@ -2894,7 +3115,7 @@ ul li a{
         color: gray;
     }
     
-    /*THANK YOU PAGE GENRES*/
+
     .genretitlethankyou {
         font-family: avenir;
         font-size: 3vw; 
@@ -2943,7 +3164,6 @@ ul li a{
         transform: translate(34%, -290%)
     }
     
-    /*THANK YOU PAGE JUST IN*/
     .justintitlethankyou {
         font-family: avenir;
         font-size: 3vw; 
@@ -2990,8 +3210,7 @@ ul li a{
         font-size: 1.5vw;
         color: gray;
     }
-    
-    /*THANK YOU PAGE SOCIAL MEDIA TAGS*/
+
     .socialmediathankyou {
         font-family: avenir; 
         font-size: 1.5vw;
